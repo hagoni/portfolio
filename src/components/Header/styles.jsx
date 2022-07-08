@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
   right: 0;
   top: 0;
   height: 60px;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.8);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,11 +31,12 @@ export const GNBItem = styled.li`
   margin-left: 15px;
   cursor: pointer;
   transition: 0.2s ease;
+  color: #108446;
   &:hover {
-    color: #0b6033;
+    color: #fff;
   }
   &.on {
     font-weight: 700;
-    color: #0b6033;
+    color: #fff;
   }
 `;

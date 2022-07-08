@@ -1,15 +1,17 @@
 import React from 'react';
-import styled from 'styled-components';
+import * as S from './styles';
+import { Inner } from '../../../GlobalStyle';
 
-const Title = styled.h2`
-  font-size: 50px;
-  font-weight: 700;
-  color: #0b6033;
-`;
-
-const ContentTitle = ({ title }) => {
+const ContentTitle = ({ title, subTitle }) => {
   return (
-    <Title>{title}</Title>
+    <S.Wrapper>
+      <Inner>
+        <S.FlexWrapper>
+          <S.Title>{title}</S.Title>
+          <S.SubTitle>{subTitle}</S.SubTitle>
+        </S.FlexWrapper>
+      </Inner>
+    </S.Wrapper>
   );
 }
 

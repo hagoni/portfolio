@@ -1,6 +1,6 @@
 import React from 'react';
 import GlobalStyle, { Container } from './GlobalStyle';
-import { Home, Header } from './src/components';
+import { Home, Header, Publisher } from './src/components';
 
 const Portfolio = () => {
   return (
@@ -8,7 +8,7 @@ const Portfolio = () => {
       <GlobalStyle />
       <Header />
       <Container>
-        <Home />
+        <Publisher />
       </Container>
     </>
   )
