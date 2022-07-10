@@ -4,7 +4,8 @@
   "description": "hagon's portfolio",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack server --env development"
+    "dev": "webpack server --env development",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
