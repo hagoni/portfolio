@@ -12,7 +12,7 @@ const Header = () => {
     <S.Wrapper>
       <S.ToHome>홈으로</S.ToHome>
       <S.GNB>
-        {GNBList.map((content) => content)}
+        {/* {GNBList.map((content) => content)} */}
       </S.GNB>
     </S.Wrapper>
   );
