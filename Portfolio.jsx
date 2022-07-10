@@ -7,9 +7,7 @@ const Portfolio = () => {
     <>
       <GlobalStyle />
       <Header />
-      <Container>
-        <Publisher />
-      </Container>
+      <Publisher />
     </>
   )
 }

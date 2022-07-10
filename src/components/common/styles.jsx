@@ -24,4 +24,5 @@ export const Title = styled.h2`
 export const SubTitle = styled.p`
   font-size: 20px;
   color: #fff;
+  line-height: 150%;
 `;
