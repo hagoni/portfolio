@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import Logo from '../../images/logo.png';
+import { NavLink } from 'react-router-dom';
 
 export const Wrapper = styled.div`
   position: fixed;
@@ -27,16 +28,18 @@ export const GNB = styled.ul`
   align-items: center;
 `;
 
-export const GNBItem = styled.li`
+export const GNBItem = styled.li``;
+
+export const CustomLink = styled(NavLink)`
   margin-left: 15px;
   cursor: pointer;
   transition: 0.2s ease;
   color: #108446;
+  text-decoration: unset;
   &:hover {
     color: #fff;
   }
-  &.on {
-    font-weight: 700;
+  &.active {
     color: #fff;
   }
 `;

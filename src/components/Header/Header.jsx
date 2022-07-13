@@ -2,9 +2,9 @@ import React from 'react';
 import * as S from './styles';
 
 const GNBList = [
-  <S.GNBItem>Publisher</S.GNBItem>,
-  <S.GNBItem>FE Developer</S.GNBItem>,
-  <S.GNBItem>Contact me</S.GNBItem>
+  <S.GNBItem><S.CustomLink to="/">Publisher</S.CustomLink></S.GNBItem>,
+  <S.GNBItem><S.CustomLink to="/fe">FE Developer</S.CustomLink></S.GNBItem>,
+  <S.GNBItem><S.CustomLink to="/contact">Contact me</S.CustomLink></S.GNBItem>
 ]
 
 const Header = () => {
@@ -12,7 +12,7 @@ const Header = () => {
     <S.Wrapper>
       <S.ToHome>홈으로</S.ToHome>
       <S.GNB>
-        {/* {GNBList.map((content) => content)} */}
+        {GNBList.map((content) => content)}
       </S.GNB>
     </S.Wrapper>
   );
