@@ -11,9 +11,9 @@ const Header = () => {
   return (
     <S.Wrapper>
       <S.ToHome>홈으로</S.ToHome>
-      <S.GNB>
+      {/* <S.GNB>
         {GNBList.map((content) => content)}
-      </S.GNB>
+      </S.GNB> */}
     </S.Wrapper>
   );
 }

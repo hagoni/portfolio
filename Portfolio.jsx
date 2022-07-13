@@ -9,12 +9,13 @@ const Portfolio = () => {
     <BrowserRouter>
       <GlobalStyle />
       <Header />
-      <Routes>
+      {/* <Routes>
         <Route path="/" element={<Publisher />}></Route>
         <Route path="/fe" element={<FrontEnd />}></Route>
         <Route path="/contact" element={<ContactMe />}></Route>
         <Route path="*" element={<Publisher />}></Route>
-      </Routes>
+      </Routes> */}
+      <Publisher />
     </BrowserRouter>
   )
 }
