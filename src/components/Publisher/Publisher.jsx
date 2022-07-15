@@ -75,7 +75,7 @@ const Publisher = () => {
 
   return (
     <>
-      <ContentTitle title="Publisher">2018.03 부터 퍼블리셔로 일하며 진행한 프로젝트 내역입니다.<br />미완성 포트폴리오 입니다.<br />2022년 7월 13일 최신화.<br />Git Link : <a href="https://github.com/hagoni/portfolio" target="_blank">https://github.com/hagoni/portfolio</a></ContentTitle>
+      <ContentTitle title="Publisher">2018.03 부터 퍼블리셔로 일하며 진행한 프로젝트 내역입니다.<br />미완성 포트폴리오 입니다.<br />2022년 7월 13일 최신화.<br /><S.GitLink href="https://github.com/hagoni/portfolio" target="_blank">Git Link</S.GitLink></ContentTitle>
       <Inner>
         <S.ContentWrapper>
           <S.Title>Tmax A&C(2020.08 ~ )</S.Title>

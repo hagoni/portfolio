@@ -87,3 +87,9 @@ export const CareerContentItem = styled.li`
   margin-top: 15px;
   line-height: 150%;
 `;
+
+export const GitLink = styled.a`
+  text-decoration: none;
+  color: #20ff3a;
+  font-size: 14px;
+`;
